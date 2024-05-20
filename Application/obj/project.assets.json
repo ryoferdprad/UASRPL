@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "EncryptionLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EncryptionLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EncryptionLibrary.dll": {}
+        }
+      },
+      "LoginLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LoginLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoginLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EncryptionLibrary/1.0.0": {
+      "type": "project",
+      "path": "../EncryptionLibrary/EncryptionLibrary.csproj",
+      "msbuildProject": "../EncryptionLibrary/EncryptionLibrary.csproj"
+    },
+    "LoginLibrary/1.0.0": {
+      "type": "project",
+      "path": "../LoginLibrary/LoginLibrary.csproj",
+      "msbuildProject": "../LoginLibrary/LoginLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "EncryptionLibrary >= 1.0.0",
+      "LoginLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/virtand/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Applications/UASRPL2/Application/Application.csproj",
+      "projectName": "Application",
+      "projectPath": "/Applications/UASRPL2/Application/Application.csproj",
+      "packagesPath": "/Users/virtand/.nuget/packages/",
+      "outputPath": "/Applications/UASRPL2/Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/virtand/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Applications/UASRPL2/EncryptionLibrary/EncryptionLibrary.csproj": {
+              "projectPath": "/Applications/UASRPL2/EncryptionLibrary/EncryptionLibrary.csproj"
+            },
+            "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj": {
+              "projectPath": "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj": {}
+  },
+  "projects": {
+    "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj",
+        "projectName": "LoginLibrary",
+        "projectPath": "/Applications/UASRPL2/LoginLibrary/LoginLibrary.csproj",
+        "packagesPath": "/Users/virtand/.nuget/packages/",
+        "outputPath": "/Applications/UASRPL2/LoginLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/virtand/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

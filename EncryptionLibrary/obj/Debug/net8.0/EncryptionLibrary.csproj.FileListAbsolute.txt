@@ -1,0 +1,11 @@
+/Applications/UASRPL2/EncryptionLibrary/bin/Debug/net8.0/EncryptionLibrary.deps.json
+/Applications/UASRPL2/EncryptionLibrary/bin/Debug/net8.0/EncryptionLibrary.dll
+/Applications/UASRPL2/EncryptionLibrary/bin/Debug/net8.0/EncryptionLibrary.pdb
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.AssemblyInfoInputs.cache
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.AssemblyInfo.cs
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.csproj.CoreCompileInputs.cache
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.dll
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/refint/EncryptionLibrary.dll
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/EncryptionLibrary.pdb
+/Applications/UASRPL2/EncryptionLibrary/obj/Debug/net8.0/ref/EncryptionLibrary.dll

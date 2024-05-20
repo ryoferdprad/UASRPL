@@ -1,0 +1,11 @@
+/Applications/UASRPL2/LoginLibrary/bin/Debug/net8.0/LoginLibrary.deps.json
+/Applications/UASRPL2/LoginLibrary/bin/Debug/net8.0/LoginLibrary.dll
+/Applications/UASRPL2/LoginLibrary/bin/Debug/net8.0/LoginLibrary.pdb
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.AssemblyInfoInputs.cache
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.AssemblyInfo.cs
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.csproj.CoreCompileInputs.cache
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.dll
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/refint/LoginLibrary.dll
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/LoginLibrary.pdb
+/Applications/UASRPL2/LoginLibrary/obj/Debug/net8.0/ref/LoginLibrary.dll
