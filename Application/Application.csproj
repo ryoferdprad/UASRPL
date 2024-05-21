@@ -1,15 +1,45 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+using System;
 
-  <ItemGroup>
-    <ProjectReference Include="..\EncryptionLibrary\EncryptionLibrary.csproj" />
-    <ProjectReference Include="..\LoginLibrary\LoginLibrary.csproj" />
-  </ItemGroup>
+namespace Application
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter username:");
+            string? username = Console.ReadLine();
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+            Console.WriteLine("Enter password:");
+            string? password = Console.ReadLine(); // Read original password
 
-</Project>
+            if (string.IsNullOrEmpty(username))
+            {
+                Console.WriteLine("Username cannot be empty or null.");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(password))
+            {
+                Console.WriteLine("Password cannot be empty or null.");
+                return;
+            }
+
+            var encryptionService = new EncryptionLibrary.EncryptionService();
+            var encryptedPassword = encryptionService.Encrypt(password);
+
+            Console.WriteLine($"Encrypted Password: {encryptedPassword}");
+
+            var loginService = new LoginLibrary.LoginService();
+            bool isAuthenticated = loginService.Authenticate(username, password); // Pass original password
+
+            if (isAuthenticated)
+            {
+                Console.WriteLine("Login successful!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid credentials!");
+            }
+        }
+    }
+}
